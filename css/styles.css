@@ -657,10 +657,10 @@ position: fixed;
 background: #FFFFFF;
 box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 border-radius: 4px;
-width: 500px;
-height: 411px;
+width: 528px;
+height: 530px;
 left: 536px;
-top: 221px;
+top: 100px;
 }
 .modal-close{
   margin-left: 450px;
@@ -668,8 +668,6 @@ top: 221px;
   border-radius: 50%;
 width: 30px;
 height: 30px;
-left: 1026px;
-top: 229px;
 background: #FFFFFF;
 border: 1px solid rgba(0, 0, 0, 0.1);
 }
@@ -715,4 +713,136 @@ margin-top: 0%;
  margin-left: 30px;
  margin-top: 26px;
 content: '';
+}
+
+
+
+.input-contacto{
+  position: relative;
+}
+.icon-contacto{
+  position: absolute;
+  transform: translatey(-50%);
+left: 70px;
+top: 10px;
+transition: color .2s ease-in;
+
+}
+.estilo-input{
+width: 448px;
+height: 40px;
+border-radius: 4px;
+margin-top: -20px;
+border: 1px solid rgba(33, 33, 33, 0.2);
+padding: 10px 10px 10px 50px;
+transition: border-color .2s ease-in;
+
+}
+.estilo-input:focus-visible{
+  outline: none;
+  border-color: #2196F3;
+
+}
+.estilo-input:focus-visible + svg{
+color: #2196F3;
+}
+.iten-formulario{
+width: 48px;
+height: 14px;
+left: 576px;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+letter-spacing: 0.01em;
+color: #757575;
+margin-left: 40px;
+
+}
+.input-comentarios{
+width: 450px;
+height: 100px;
+background: #FFFFFF;
+border-radius: 4px;
+margin-top: -10px;
+border: 1px solid rgba(33, 33, 33, 0.2);
+transition: border-color .2s ease-in;
+}
+.input-comentarios:focus-visible{
+  outline: none;
+  border-color: #2196F3;
+}
+
+.datos-contactos{
+font-weight: 700;
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+margin-top: -4px;
+}
+.checkbox{
+  display: flex;
+  display: block;
+  margin-left: 50px;
+  margin-top: 10px;
+ 
+}
+.input-acuerdo{
+width: 400px;
+height: 24px;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+color: #757575;
+margin-left: 60px;
+margin-top: -20px;
+
+}
+.bot-enviar-input{
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 712px;
+  background: #188CE8;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  color: #FFFFFF;
+  margin-top: 12px;
+  border-style: none;
+}
+.imput-tex{
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+letter-spacing: 0.01em;
+color: rgba(117, 117, 117, 0.5);
+
+}
+.boletin-fotter{
+  
+position: absolute;
+width: 275px;
+height: 16px;
+left: 815px;
+top: 2751px;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #FFFFFF;
+
+}
+.input-fotter{
+width: 350px;
+height: 50px;
+background: #2F303A;
+border: 1px solid rgba(255, 255, 255, 0.3);
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+border-radius: 4px;
+position: relative;
+margin-top: 170px;
+margin-right: 130px;
 }

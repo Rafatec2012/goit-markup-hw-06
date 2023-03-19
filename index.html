@@ -54,24 +54,77 @@
       </div>
     </header>
     <main>
-      <section class="containertit section">
-        <div class="transparent-efec">
-          <div class="container">
-            <h1 class="intro-title">SOLUCIONES EFICACES PARA SU NEGOCIO</h1>
+      <form>
+        <div>
+          <section class="containertit section">
+            <div class="transparent-efec">
+              <div class="container">
+                <h1 class="intro-title">SOLUCIONES EFICACES PARA SU NEGOCIO</h1>
 
-            <button type="button" data-modal-open class="intro-bot">
-              solicite nuestro servicio
-            </button>
+                <button type="button" data-modal-open class="intro-bot">
+                  solicite nuestro servicio
+                </button>
 
-            <div data-modal class="is-hidden">
-              <div class="modal">
-                <button data-modal-close class="modal-close">X</button>
+                <div data-modal class="is-hidden">
+                  <div class="modal">
+                    <button data-modal-close class="modal-close">X</button>
+                    <p class="datos-contactos">
+                      Deje sus datos, nos contactaremos con usted
+                    </p>
+                    <p class="iten-formulario">Nombre</p>
+                    <div class="input-contacto">
+                      <input class="estilo-input" type="text" />
+                      <svg width="15" height="15" class="icon-contacto">
+                        <use
+                          href="./images/icon-formularios.svg#icon-Vector-2"
+                        ></use>
+                      </svg>
+                      <p class="iten-formulario">Telefono</p>
+                      <div class="input-contacto">
+                        <input class="estilo-input" type="text" />
+                        <svg width="15" heigh="15" class="icon-contacto">
+                          <use
+                            href="./images/icon-formularios.svg#icon-Vector-1"
+                          ></use>
+                        </svg>
+                      </div>
+                      <p class="iten-formulario">E-mail</p>
+                      <div class="input-contacto">
+                        <input class="estilo-input" type="text" />
+                        <svg width="15" heigh="15" class="icon-contacto">
+                          <use
+                            href="./images/icon-formularios.svg#icon-Vector"
+                          ></use>
+                        </svg>
+                      </div>
+                      <p class="iten-formulario">Comentarios</p>
+                      <div class="imput-tex">
+                        <input
+                          class="input-comentarios"
+                          placeholder="Introduzca el texto"
+                          type="text"
+                        />
+                      </div>
+                      <div>
+                        <input class="checkbox" type="checkbox" />
+                        <p class="input-acuerdo">
+                          Estoy de acuerdo con el boletín informativo y acepto
+                          los Términos y Condiciones
+                        </p>
+                        <div>
+                          <button class="bot-enviar-input">Enviar</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
+              <script src="./js/modal.js"></script>
             </div>
-          </div>
-          <script src="./js/modal.js"></script>
+          </section>
         </div>
-      </section>
+      </form>
+
       <section class="section">
         <div class="container">
           <ul class="flex-container">
@@ -405,12 +458,36 @@
                 </svg>
               </a>
             </li>
+
             <li class="icon-yei">
               <a href="#"
                 ><svg class="cambia" width="20" height="20">
                   <use href="./images/icons.svg#icon-linkedin-1"></use>
                 </svg>
               </a>
+
+              <form>
+                <div>
+                  <p class="boletin-fotter">
+                    Suscríbase al boletín informativo
+                  </p>
+                  <div>
+                    <input
+                      class="input-fotter"
+                      type="text"
+                      placeholder="correo elctronico"
+                    />
+                  </div>
+                  <div>
+                    <button>Suscríbase</button>
+                    <svg width="20" height="20">
+                      <use
+                        href="./images/icon-formularios.svg#icon-enviar-cono"
+                      ></use>
+                    </svg>
+                  </div>
+                </div>
+              </form>
             </li>
           </ul>
         </div>
