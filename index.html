@@ -60,12 +60,10 @@
             <div class="transparent-efec">
               <div class="container">
                 <h1 class="intro-title">SOLUCIONES EFICACES PARA SU NEGOCIO</h1>
-
                 <button type="button" data-modal-open class="intro-bot">
                   solicite nuestro servicio
                 </button>
-
-                <div data-modal class="is-hidden">
+                <div class="backdrop is-hidden" data-modal>
                   <div class="modal">
                     <button data-modal-close class="modal-close">X</button>
                     <p class="datos-contactos">
@@ -105,15 +103,25 @@
                           type="text"
                         />
                       </div>
-                      <div>
-                        <input class="checkbox" type="checkbox" />
-                        <p class="input-acuerdo">
+                      <label class="cassilla">
+                        <input
+                          class="checkbox"
+                          type="checkbox"
+                          name="policy"
+                          value="accept"
+                        />
+                        <svg class="icon-input" width="16px" heigh="16">
+                          <use href="./images/chulito.svg#icon-Vector-2"></use>
+                        </svg>
+                        <p class="tex-acuerdo">
                           Estoy de acuerdo con el boletín informativo y acepto
                           los Términos y Condiciones
                         </p>
-                        <div>
-                          <button class="bot-enviar-input">Enviar</button>
-                        </div>
+                      </label>
+                      <div>
+                        <button class="bot-enviar-input" type="submit">
+                          Enviar
+                        </button>
                       </div>
                     </div>
                   </div>
@@ -124,7 +132,6 @@
           </section>
         </div>
       </form>
-
       <section class="section">
         <div class="container">
           <ul class="flex-container">
@@ -134,7 +141,6 @@
                   <use href="./images/icons.svg#icon-antena-1"></use>
                 </svg>
               </div>
-
               <h3 class="title-servicios">ATENCION A LOS DETALLES</h3>
               <p class="detalles">
                 Nos adentramos en todos los detalles y procesos de su negocio,
@@ -147,7 +153,6 @@
                   <use href="./images/icons.svg#icon-reloj-1"></use>
                 </svg>
               </div>
-
               <h3 class="title-servicios">PUNTUALIDAD</h3>
               <p class="detalles">
                 Con nosotros, usted puede sentirse seguro y protegido. Un
@@ -189,7 +194,6 @@
             <li class="imagestilos">
               <div class="oneimagen">
                 <img src="./images/tablet.jpg" alt="tablet" width="300" />
-
                 <div class="probando">
                   <p class="hp">Aplicaciones de Escritorio</p>
                 </div>
@@ -254,7 +258,6 @@
                 </ul>
               </div>
             </li>
-
             <li class="img">
               <img
                 class="images-equipo"
@@ -291,7 +294,6 @@
                 </ul>
               </div>
             </li>
-
             <li class="img">
               <img
                 class="images-equipo"
@@ -304,7 +306,6 @@
                   <h3 class="nombres">Mario Dorado</h3>
                   <p class="profeciones-activ">Marketing</p>
                 </div>
-
                 <ul class="redes-profeciones">
                   <li class="icon-container">
                     <svg width="20" height="20">
@@ -329,7 +330,6 @@
                 </ul>
               </div>
             </li>
-
             <li class="img">
               <img
                 class="images-equipo"
@@ -467,22 +467,22 @@
             </li>
           </ul>
         </div>
-      </div>
-      <div>
         <form class="form-position">
+          <h4 class="boletin-fotter">Suscríbase al boletín informativo</h4>
           <div class="positions-input">
-            <div>
-              <p class="boletin-fotter">Suscríbase al boletín informativo</p>
-              <input
-                class="input-fotter"
-                type="text"
-                placeholder="correo elctronico"
-              />
-            </div>
-            <button class="boton-suscripcion">Suscríbase</button>
-            <svg class="instagram" width="20" height="20">
-              <use href="./images/icon-formularios.svg#icon-enviar-cono"></use>
-            </svg>
+            <input
+              class="input-fotter"
+              type="text"
+              placeholder="correo elctronico"
+            />
+            <button class="boton-suscripcion">
+              Suscríbase
+              <svg class="for-button-footer" width="20" height="20">
+                <use
+                  href="./images/icon-formularios.svg#icon-enviar-cono"
+                ></use>
+              </svg>
+            </button>
           </div>
         </form>
       </div>
