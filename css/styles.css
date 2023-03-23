@@ -478,6 +478,7 @@ svg{
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
+position: absolute;
   
 }
 .company {
@@ -592,7 +593,6 @@ color: #ffffff;
 .iconos-footer {
   display: flex;
   align-content: center;
-
   color: #ececec;
 
 }
@@ -601,9 +601,7 @@ color: #ffffff;
   display: flex;
   align-items: center;
   gap: 10px;
- 
- 
-  
+
 }
 .icon-yei {
  width: 44px;
@@ -613,16 +611,15 @@ color: #ffffff;
  justify-content: center;
  border-radius: 50%;
  background: rgba(255, 255, 255, 0.1);
- transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
 }
 
 .icon-yei:hover{
   background-color:#2196f3;
-
+  
 }
 .cambia{
   color: #ececec;
+  
 }
 
 .oneimagen {
@@ -667,9 +664,6 @@ margin-top: 30px;
 
 .overlay{
   overflow: hidden;
-  
- 
-
 }
 .estilimages{
   overflow: hidden;
@@ -810,6 +804,9 @@ line-height: 16px;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #FFFFFF;
+margin-top: -40px;
+position: absolute;
+margin-right: 260px;
 
 
 }
@@ -841,7 +838,10 @@ color: rgba(255, 255, 255, 0.6);
   display: flex;
   flex-direction: column;
   gap: 80px;
- 
+  position: absolute;
+  align-items: center;
+  margin-left: 590px;
+  margin-top: 40px;
 }
 .boton-suscripcion{
   width: 200px;
@@ -885,13 +885,14 @@ margin-left: 50px;
 
  }
  .tex-acuerdo{
-font-weight: 600px;
-font-size: 50%;
-line-height: 24px;
+font-weight: 400px;
+font-size: 14px;
+line-height: 34px;
 letter-spacing: 0.03em;
 color: #757575;
-margin-left: 40px;
+margin-left: 70px;
 margin-top: -20px;
+width: 371px;
  }
  .checkbox:checked +.icon-input{
   background-color: #2196F3;
