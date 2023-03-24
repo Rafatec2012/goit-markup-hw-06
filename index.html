@@ -54,84 +54,69 @@
       </div>
     </header>
     <main>
-      <form>
-        <div>
-          <section class="containertit section">
-            <div class="transparent-efec">
-              <div class="container">
-                <h1 class="intro-title">SOLUCIONES EFICACES PARA SU NEGOCIO</h1>
-                <button type="button" data-modal-open class="intro-bot">
-                  solicite nuestro servicio
-                </button>
-                <div class="backdrop is-hidden" data-modal>
-                  <div class="modal">
-                    <button data-modal-close class="modal-close">X</button>
-                    <p class="datos-contactos">
-                      Deje sus datos, nos contactaremos con usted
-                    </p>
-                    <p class="iten-formulario">Nombre</p>
-                    <div class="input-contacto">
-                      <input class="estilo-input" type="text" />
-                      <svg width="15" height="15" class="icon-contacto">
-                        <use
-                          href="./images/icon-formularios.svg#icon-Vector-2"
-                        ></use>
-                      </svg>
-                      <p class="iten-formulario">Telefono</p>
-                      <div class="input-contacto">
-                        <input class="estilo-input" type="text" />
-                        <svg width="15" heigh="15" class="icon-contacto">
-                          <use
-                            href="./images/icon-formularios.svg#icon-Vector-1"
-                          ></use>
-                        </svg>
-                      </div>
-                      <p class="iten-formulario">E-mail</p>
-                      <div class="input-contacto">
-                        <input class="estilo-input" type="text" />
-                        <svg width="15" heigh="15" class="icon-contacto">
-                          <use
-                            href="./images/icon-formularios.svg#icon-Vector"
-                          ></use>
-                        </svg>
-                      </div>
-                      <p class="iten-formulario">Comentarios</p>
-                      <div class="imput-tex">
-                        <input
-                          class="input-comentarios"
-                          placeholder="Introduzca el texto"
-                          type="text"
-                        />
-                      </div>
-                      <label class="cassilla">
-                        <input
-                          class="checkbox"
-                          type="checkbox"
-                          name="policy"
-                          value="accept"
-                        />
-                        <svg class="icon-input" width="16px" heigh="16">
-                          <use href="./images/chulito.svg#icon-Vector-2"></use>
-                        </svg>
-                        <p class="tex-acuerdo">
-                          Estoy de acuerdo con el boletín informativo y acepto
-                          los Términos y Condiciones
-                        </p>
-                      </label>
-                      <div>
-                        <button class="bot-enviar-input" type="submit">
-                          Enviar
-                        </button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <script src="./js/modal.js"></script>
+      <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+          <button data-modal-close class="modal-close">X</button>
+          <form class="form">
+            <p class="datos-contactos">
+              Deje sus datos, nos contactaremos con usted
+            </p>
+            <p class="iten-formulario">Nombre</p>
+            <div class="input-contacto">
+              <input class="estilo-input" type="text" />
+              <svg width="15" height="15" class="icon-contacto">
+                <use href="./images/icon-formularios.svg#icon-Vector-2"></use>
+              </svg>
             </div>
-          </section>
+            <p class="iten-formulario">Telefono</p>
+            <div class="input-contacto">
+              <input class="estilo-input" type="text" />
+              <svg width="15" heigh="15" class="icon-contacto">
+                <use href="./images/icon-formularios.svg#icon-Vector-1"></use>
+              </svg>
+            </div>
+            <p class="iten-formulario">E-mail</p>
+            <div class="input-contacto">
+              <input class="estilo-input" type="text" />
+              <svg width="15" heigh="15" class="icon-contacto">
+                <use href="./images/icon-formularios.svg#icon-Vector"></use>
+              </svg>
+            </div>
+            <p class="iten-formulario">Comentarios</p>
+            <div class="imput-tex">
+              <input
+                class="input-comentarios"
+                placeholder="Introduzca el texto"
+                type="text"
+              />
+            </div>
+            <label class="cassilla">
+              <input
+                class="checkbox"
+                type="checkbox"
+                name="policy"
+                value="accept"
+              />
+              <svg class="icon-input" width="16px" heigh="16">
+                <use href="./images/chulito.svg#icon-Vector-2"></use>
+              </svg>
+            </label>
+            <p class="tex-acuerdo">
+              Estoy de acuerdo con el boletín informativo y acepto los Términos
+              y Condiciones
+            </p>
+            <div class="alin-tex-enviar">
+              <button class="bot-enviar-input" type="submit">Enviar</button>
+            </div>
+          </form>
         </div>
-      </form>
+      </div>
+      <section class="containertit section">
+        <h1 class="intro-title">SOLUCIONES EFICACES PARA SU NEGOCIO</h1>
+        <button type="button" data-modal-open class="intro-bot">
+          solicite nuestro servicio
+        </button>
+      </section>
       <section class="section">
         <div class="container">
           <ul class="flex-container">
@@ -487,5 +472,6 @@
         </form>
       </div>
     </footer>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
